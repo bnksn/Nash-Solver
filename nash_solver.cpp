@@ -5,7 +5,7 @@ int main(){
     std::cout << "UP     x1,y1   x2,y2\n";
     std::cout << "DOWN   x3,y3   x4,y4\n\n";
 
-    float x1, x2, x3, x4, y1, y2, y3, y4;
+    float x1{}, x2{}, x3{}, x4{}, y1{}, y2{}, y3{}, y4{};
     std::cout << "Input values in the form \"x1 y1 x2 y2 x3 y3 x4 y4\":\n";
     std::cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> x4 >> y4;
     std::cout << "\n";
@@ -16,8 +16,8 @@ int main(){
         return 0;
     }
     
-    float q = (x4 - x2) / (x1 - x2 - x3 + x4);
-    float p = (y4 - y3)  / (y1 - y3 - y2 + y4);
+    const float q = (x4 - x2) / (x1 - x2 - x3 + x4);
+    const float p = (y4 - y3)  / (y1 - y3 - y2 + y4);
 
     //Check for finite NE
     if (0 <= q && q <= 1 && 0 <= p && p <= 1){
