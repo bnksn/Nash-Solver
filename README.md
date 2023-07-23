@@ -8,8 +8,7 @@ For example, on Windows, type "./nash_solver.exe".
 
 ### Mathematical background
 
-- In our game, "p1" denotes Player 1 and "p2" denotes Player 2.
-- In our game, p1 is playing UP or DOWN and p2 is playing LEFT or RIGHT.
+- In our game, p1 (Player 1) is playing UP or DOWN and p2 (Player 2) is playing LEFT or RIGHT.
 - The payoff $x,y$ is such that p1 recieves $x$ utility and p2 receives $y$ utility.
 - The strategy $p\text{UP} + (1-p)\text{DOWN}$ is a strategy that involves playing UP with probabilty $p$ and DOWN with probability $1-p$.
  
