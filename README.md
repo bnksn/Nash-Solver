@@ -38,3 +38,8 @@ $(1\text{UP} + 0\text{DOWN}, 1\text{LEFT} + 0\text{RIGHT})$ is a NE if $x1 - x2 
 $(1\text{UP} + 0\text{DOWN}, 0\text{LEFT} + 1\text{RIGHT})$ is a NE if $0 > x4 - x2$ and $y1 - y3 - y2 + y4 < y4 - y3$.
 $(0\text{UP} + 1\text{DOWN}, 1\text{LEFT} + 0\text{RIGHT})$ is a NE if $x1 - x2 - x3 + x4 < x4 - x2$ and $0 > y4 - y3$.
 $(0\text{UP} + 1\text{DOWN}, 0\text{LEFT} + 1\text{RIGHT})$ is a NE if $0 < x4 - x2$ and $0 < y4 - y3$.
+
+### Limitations
+
+In the case of there being infinitely many NE, the general form of these NE is not displayed.\
+The solver only solves 2x2 payoff matrices.
